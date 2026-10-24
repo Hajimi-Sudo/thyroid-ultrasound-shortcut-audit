@@ -1,0 +1,37 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Model checkpoints and weights (large binaries)
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.h5
+checkpoints/
+
+# Large datasets and raw downloads
+data/raw/
+data/downloads/
+*.zip
+*.tar.gz
+*.tar
+
+# Logs and environment files
+*.log
+.env
+venv/
+env/
+.venv/
+
+# macOS / OS artifacts
+.DS_Store
+._*
+Thumbs.db
+
+# Manuscript directory (local only - excluded from public GitHub to protect double-blind peer review and author/journal anonymity)
+manuscript/
